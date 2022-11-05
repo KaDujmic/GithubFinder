@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-card-image .card.image-full::before {
+	border-radius: 0.5rem;
+	opacity: 0.45;
+}
+
+body {
+	color: aliceblue;
+}
+
+div h2 {
+	color: aliceblue;
+}
+
+div p {
+	color: aliceblue;
+}
+
+div a {
+	color: aliceblue;
+}
+
+div div {
+	color: aliceblue;
+}
